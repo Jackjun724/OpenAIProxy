@@ -6,7 +6,7 @@ services:
   function-test: #  服务名称
     component: fc  # 组件名称
     props: #  组件的属性值
-      region: us-west-1
+      region: cn-hongkong-d
       # region: "{{ region }}" # 来自 publish.yaml Parameters 参数定义, 更多关于变量的使用方法，可以参考：https://www.serverless-devs.com/serverless-devs/yaml#变量赋值
       service:
         name: openai-proxy
