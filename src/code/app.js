@@ -9,7 +9,7 @@
 
 
   app.use('/', createProxyMiddleware({
-    target: 'https://api.openai.com',
+    target: 'https://askquin.ai',
     changeOrigin: true,
     onProxyRes: function (proxyRes, req, res) {
       proxyRes.headers['Access-Control-Allow-Origin'] = '*';
